@@ -12,7 +12,7 @@ app = Flask(__name__)
 if 'API_KEY' in os.environ:
     API_KEY = os.environ['API_KEY']
 else:
-    API_KEY = 'RQM7GIDWT0ZU2WLU'
+    API_KEY = '61HB6H2OO2BXNM8Q'
 
 # default ('/') route of the application
 @app.route('/',methods=['GET','POST'])
